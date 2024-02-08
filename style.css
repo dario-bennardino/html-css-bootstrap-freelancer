@@ -1,7 +1,7 @@
 [class*='container'],
 [class^='col'],
 .debug{
-  background-color: rgba(238, 255, 0, 0.125);
+  /* background-color: rgba(238, 255, 0, 0.125); */
   border: 1px solid black;
   min-height: 80px;
 }
