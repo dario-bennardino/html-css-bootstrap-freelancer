@@ -1,7 +1,29 @@
 [class*='container'],
 [class^='col'],
 .debug{
-  background-color: rgba(0,255,0,.2);
+  background-color: rgba(0, 255, 0, 0.125);
   border: 1px solid black;
   min-height: 80px;
+}
+
+header{
+    height: 85px;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* custom proprerties */
+:root{
+    --colore-primario: #2C3E50; 
+    --colore-jumbotron: #17BD9C;
+}
+
+header{
+    background-color: var(--colore-primario);
+}
+
+.jumbotron{
+    background-color: var(--colore-jumbotron);
 }
