@@ -18,6 +18,8 @@ ul li{
 :root{
     --colore-primario: #2C3E50; 
     --colore-jumbotron: #17BD9C;
+    --colore-topfooter: #3A546D;
+    --colore-bottom-footer: #2C3E50;
 }
 
 /* Header */
@@ -40,4 +42,15 @@ header{
 }
 
 /* footer */
+
+/* topfooter */
+.top-footer{
+    background-color: var(--colore-topfooter);
+}
+
+/* bottom-footer */
+.bottom-footer{
+    background-color: var(--colore-bottom-footer);
+}
+
 
