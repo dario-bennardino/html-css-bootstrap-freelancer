@@ -20,17 +20,27 @@ ul li{
     --colore-jumbotron: #17BD9C;
     --colore-topfooter: #3A546D;
     --colore-bottom-footer: #2C3E50;
+    --colore-icon-header: #888888;
 }
 
 /* Header */
 header{
-    background-color: var(--colore-primario);
+    background-color: var(--colore-primario);   
+}
+
+.hamburger .fa-solid{
+    color: var(--colore-icon-header);
+    
 }
 
 /* Sezione Jumbotron */
 .jumbotron{
     background-color: var(--colore-jumbotron);
     /* height: 600px; */
+}
+
+.text-jumbotron{
+    text-align: center;
 }
 
 /* Sezione Portfolio */
@@ -51,6 +61,7 @@ header{
 /* bottom-footer */
 .bottom-footer{
     background-color: var(--colore-bottom-footer);
+    height: 110px;
 }
 
 
