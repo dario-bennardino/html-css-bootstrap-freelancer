@@ -26,5 +26,5 @@ header{
 
 .jumbotron{
     background-color: var(--colore-jumbotron);
-    height: 600px;
+    /* height: 600px; */
 }
