@@ -25,17 +25,23 @@ ul li{
 
 /* Header */
 header{
-    background-color: var(--colore-primario);   
+    background-color: var(--colore-primario);  
+    left: 0; 
+    top: 0;
 }
 
 .hamburger .fa-solid{
-    color: var(--colore-icon-header);
-    
+    color: var(--colore-icon-header);   
+}
+
+.menu{
+    cursor: pointer;
 }
 
 /* Sezione Jumbotron */
 .jumbotron{
     background-color: var(--colore-jumbotron);
+    margin-top: 85px;
     /* height: 600px; */
 }
 
