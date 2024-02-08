@@ -1,7 +1,7 @@
 [class*='container'],
 [class^='col'],
 .debug{
-  background-color: rgba(0, 255, 0, 0.125);
+  background-color: rgba(238, 255, 0, 0.125);
   border: 1px solid black;
   min-height: 80px;
 }
@@ -20,11 +20,24 @@ ul li{
     --colore-jumbotron: #17BD9C;
 }
 
+/* Header */
 header{
     background-color: var(--colore-primario);
 }
 
+/* Sezione Jumbotron */
 .jumbotron{
     background-color: var(--colore-jumbotron);
     /* height: 600px; */
 }
+
+/* Sezione Portfolio */
+
+
+/* Sezione About */
+.about{
+    background-color: var(--colore-jumbotron);
+}
+
+/* footer */
+
