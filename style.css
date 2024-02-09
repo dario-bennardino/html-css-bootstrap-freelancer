@@ -2,7 +2,7 @@
 [class^='col'],
 .debug{
   border: 1px solid black;
-  min-height: 80px;
+  /* min-height: 80px; */
 }
 
 header{
@@ -20,6 +20,11 @@ ul li{
     --colore-topfooter: #3A546D;
     --colore-bottom-footer: #2C3E50;
     --colore-icon-header: #888888;
+}
+
+.dr_container{
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -47,9 +52,18 @@ header{
     text-align: center;
 }
 
+.img-jumbotron{
+    width: 100%;
+}
+
+.img-jumbotron img{
+    width: 100%;
+}
+
 /* Sezione Portfolio */
 .img-portfolio img{
     width: 100%;
+    border-radius: 15px;
 }
 
 
