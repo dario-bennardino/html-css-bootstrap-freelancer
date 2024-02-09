@@ -48,6 +48,9 @@ header{
 }
 
 /* Sezione Portfolio */
+.img-portfolio img{
+    width: 100%;
+}
 
 
 /* Sezione About */
