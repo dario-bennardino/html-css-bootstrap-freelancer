@@ -1,9 +1,9 @@
-[class*='container'],
+/* [class*='container'],
 [class^='col'],
-.debug{
-  border: 1px solid black;
+.debug{ */
+  /* border: 1px solid black; */
   /* min-height: 80px; */
-}
+/* } */
 
 header{
     height: 85px;
@@ -70,6 +70,12 @@ header{
 /* Sezione About */
 .about{
     background-color: var(--colore-jumbotron);
+}
+
+.download-about{
+    border: 1px solid white;
+    background-color: var(--colore-jumbotron);
+    border-radius: 5px;
 }
 
 /* footer */
