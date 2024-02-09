@@ -78,6 +78,30 @@ header{
     border-radius: 5px;
 }
 
+/* Contact me */
+.message-form{
+    height: 200px;
+}
+
+.form-group input,
+.form-group textarea{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: none;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus{
+    box-shadow: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+    color: var(--colore-primario);
+}
+
 /* footer */
 
 /* topfooter */
