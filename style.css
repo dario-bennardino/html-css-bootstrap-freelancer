@@ -1,12 +1,5 @@
-/* [class*='container'],
-[class^='col'],
-.debug{ */
-  /* border: 1px solid black; */
-  /* min-height: 80px; */
-/* } */
 body{
-    font-family: 'Helvetica Neue', sans-serif;
-                                                
+    font-family: 'Helvetica Neue', sans-serif;                                                
 }
 
 header{
@@ -20,7 +13,7 @@ ul li{
 /* custom proprerties */
 :root{
     --colore-primario: #2C3E50; 
-    --colore-jumbotron: #17BD9C;
+    --colore-secondario: #17BD9C;
     --colore-topfooter: #3A546D;
     --colore-bottom-footer: #2C3E50;
     --colore-icon-header: #888888;
@@ -29,6 +22,16 @@ ul li{
 .dr_container{
     width: 60%;
     margin: 0 auto;
+}
+
+.barra-bk{
+    height: 4px;
+    width: 10%;
+    background-color: black;
+}
+
+.star{
+    height: 30px;
 }
 
 /* Header */
@@ -48,7 +51,7 @@ header{
 
 /* Sezione Jumbotron */
 .jumbotron{
-    background-color: var(--colore-jumbotron);
+    background-color: var(--colore-secondario);
     margin-top: 85px;
 }
 
@@ -64,21 +67,34 @@ header{
     width: 100%;
 }
 
+.barra{
+    height: 4px;
+    width: 10%;
+    background-color: white;
+}
+
+.star{
+    height: 30px;
+}
+
+.icon-star .fa-solid{
+    font-size: 2rem;
+}
+
 /* Sezione Portfolio */
 .img-portfolio img{
     width: 100%;
     border-radius: 15px;
 }
 
-
 /* Sezione About */
 .about{
-    background-color: var(--colore-jumbotron);
+    background-color: var(--colore-secondario);
 }
 
 .download-about{
     border: 1px solid white;
-    background-color: var(--colore-jumbotron);
+    background-color: var(--colore-secondario);
     border-radius: 5px;
 }
 
@@ -94,7 +110,6 @@ header{
     border-left: none;
     border-radius: none;
 }
-
 
 .form-group input:focus,
 .form-group textarea:focus{
@@ -115,6 +130,22 @@ header{
 
 .icons-social .fa-brands{
     padding-left: 5px;
+}
+
+#start-bootstrap{
+    color: var(--colore-secondario);
+    cursor: pointer;
+}
+
+.round-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 /* bottom-footer */
